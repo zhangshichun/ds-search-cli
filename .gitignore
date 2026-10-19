@@ -1,0 +1,23 @@
+# 构建产物
+dist/
+bin/
+
+# Go
+*.test
+*.out
+coverage.*
+
+# 本地凭据(绝不入库)
+*.pem
+.env
+.config-*.json
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# npm 打包临时
+node_modules/
